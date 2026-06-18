@@ -1,0 +1,112 @@
+* {
+ padding:0;
+ margin: 0;
+}
+.titre{
+    color: coral ;
+    border-radius: 5%;
+    border:20px ;
+
+    background-color: rgb(20, 20, 87) ;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header{
+    width: 100%;
+    
+    
+    
+
+}
+nav{
+    background-color: rgb(20, 20, 87);
+    display: flex;
+    height: 55px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color:coral;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: white;
+    color: coral;
+}
+
+.menu{
+    display: none;
+}
+
+
+
+.hide_menu {
+    display: none;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    
+          }
+
+.nos_produits_cctv {
+    flex-direction:row;
+    width: 200px;
+    height: 100px;
+    height: 150px;
+    justify-content:center;
+    
+}   
+@media(max-width:620px){
+    .menu{
+        display: block;
+    }
+    .hide_a {
+    display: none;
+    }
+    
+    
+    .hide_class { display: flex;
+
+    }
+}
+
+
+.conteneur1 {
+    width: 80%;
+    max-width: 1000px;
+    border: solid red 1px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-gap:20px;
+    justify-content: center;
+           }
+
+.sous-conteneur1{
+    width: 150px;
+    height: 200px;
+    border: solid red 1px;
+    grid: 50%;
+    grid-template-columns: repeat();
+    
+
+}
